@@ -1,8 +1,8 @@
 #!/bin/bash
 
 module load sbs/fastp/0.20.0
-INDIR="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/16S/result/00.RawData"
-OUTDIR="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/16S/fastp_data/raw"
+INDIR="Soil-Microbiomes/Tembusu-Microbiome/16S/result/00.RawData"
+OUTDIR="Soil-Microbiomes/Tembusu-Microbiome/16S/fastp_data/raw"
 
 for file in `ls -1 $INDIR/**/*_1.fq.gz | grep 'raw' | sed 's/_1.fq.gz//'`
 do
