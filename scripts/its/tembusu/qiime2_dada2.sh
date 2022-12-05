@@ -3,8 +3,8 @@
 module load anaconda2020/python3
 eval "$(conda shell.bash hook)"
 conda activate /usr/local_sbs/conda_microbes
-WD="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/qiime2_its"
-OUTDIR="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/qiime2_its/dada2"
+WD="Soil-Microbiomes/Tembusu-Microbiome/qiime2_its"
+OUTDIR="Soil-Microbiomes/Tembusu-Microbiome/qiime2_its/dada2"
 qiime dada2 denoise-paired \
 --i-demultiplexed-seqs $WD/its_paired_end_trimmed_unmerged.qza \
 --p-trunc-len-f 0 \
