@@ -103,4 +103,4 @@ def combine_bracken_output(filepath,level="P"):
 #parseMegan("root_4m_info", prefix="root4m")
 #parseMegan("bulk_4m_info", prefix="bulk4m")
 #interproscan_goatools("INTERPRO2GO_MAP_CLEANED.tsv")
-#combine_bracken_output("C:\\Users\\YZ\\Desktop\\FYP\\dip_metagenome\\results\\bracken_kreport",level="P")
+#combine_bracken_output("bracken_kreport",level="P")
