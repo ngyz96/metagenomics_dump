@@ -2,7 +2,7 @@
 module load anaconda2020/python3 
 eval "$(/usr/local/anaconda3-2020/bin/conda shell.bash hook)"
 conda activate /usr/local_sbs/conda_microbes
-WD="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/qiime2_its/dada2"
+WD="Soil-Microbiomes/Tembusu-Microbiome/qiime2_its/dada2"
 
 qiime phylogeny align-to-tree-mafft-iqtree \
 --i-sequences $WD/dada2_rep_seq_trimmed.qza \
