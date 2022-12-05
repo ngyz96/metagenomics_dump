@@ -2,8 +2,8 @@
 module load anaconda2020/python3 
 eval "$(/usr/local/anaconda3-2020/bin/conda shell.bash hook)"
 conda activate /usr/local_sbs/conda_microbes
-unitepath="/home/bmb/Soil-Microbiomes/databases/sh_qiime_release_04.02.2020"
-WD="/home/bmb/Soil-Microbiomes/Tembusu-Microbiome/qiime2_its"
+unitepath="Soil-Microbiomes/databases/sh_qiime_release_04.02.2020"
+WD="Soil-Microbiomes/Tembusu-Microbiome/qiime2_its"
 
 qiime tools import \
 --type 'FeatureData[Sequence]' \
