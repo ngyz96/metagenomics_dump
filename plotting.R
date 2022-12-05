@@ -21,7 +21,7 @@ ggplot(reads_num, aes(fill=name,y=value,x=sample)) + facet_wrap(type~species, sc
 dev.off()
 
 #kraken
-kraken_num <- read.csv("C:\\Users\\YZ\\Desktop\\FYP\\dip_metagenome\\kraken2_initial.csv", stringsAsFactors = T)
+kraken_num <- read.csv("kraken2_initial.csv", stringsAsFactors = T)
 kraken_num$sample <- factor(kraken_num$sample)
 #svg("kraken_mapping.svg", width=14, height=7)
 p1 <- ggplot(kraken_num, aes(y=percent_mapped,x=sample)) + facet_wrap(type~species, scales="free_x") +
